@@ -27,6 +27,7 @@ body{
   font-size: 3.125rem;
   margin-bottom: 15px;
   font-weight: 500;
+  line-height: 1.0; 
 }
 
 .titulo-seccion p{
@@ -276,6 +277,7 @@ body{
 
 .main .acerca-de{
   background: #F3F4FA;
+  padding-top: 50px;
 }
 
 .main .acerca-de .contenedor{

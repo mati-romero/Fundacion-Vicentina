@@ -369,6 +369,7 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .main .nuestro-equipo .equipo .persona-equipo{
@@ -630,6 +631,7 @@ footer .footer-redes a:hover{
     flex-direction: row;
     justify-content: center;
     text-align: left;
+    margin-top: 20px;
   }
   .main .nuestro-equipo .equipo .persona-equipo:first-child{
     top: -20px;

@@ -236,6 +236,73 @@ body{
   vertical-align: top;
 }
 
+/* Links */
+
+.main .link-proyectos {
+    background: #F3F4FA;
+}
+
+.main .link-proyectos .link-contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 34px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.main .link-proyectos .link-contenedor .link-box {
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main .link-proyectos .link-contenedor .link-box:hover {
+  color: #0089E0;
+}
+
+.main .link-proyectos .link-contenedor .link {
+  width: 100%;
+  margin: 2%;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.main .link-proyectos .link-contenedor .link:hover {
+  border: 1px solid #FFF;
+}
+
+#Salud{
+  background: #C86EBE;
+}
+
+#Cultura {
+  background: #FF828C;
+}
+
+#Primera-infancia {
+  background: #FFAA64;
+}
+
+#Economia-popular {
+  background: #FFD241;
+}
+
+#Medio-ambiente {
+  background: #72D282;
+}
+
+#Capacitación-de-oficio {
+  background: #009BD2;
+}
+
+.main .link-proyectos .link-contenedor .link img {
+  width: 90%;
+  padding: 15px;
+  padding-top: 20px;
+}
+
 /*Modal fotos proyectos*/
 .modal{
   position: fixed;

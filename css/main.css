@@ -239,7 +239,7 @@ body{
 /* Links */
 
 .main .link-proyectos {
-    background: #F3F4FA;
+  background: #F3F4FA;
 }
 
 .main .link-proyectos .link-contenedor {
@@ -709,6 +709,12 @@ footer .footer-redes a:hover{
     margin-right: 20px;
   }
 
+  /*Link*/
+
+  .main .link-proyectos .link-contenedor .link-box {
+    width: 15%;
+  }
+
   /*Sección información extra*/
   .main .info-extra .contenedor .info{
     width: 100%;
@@ -780,6 +786,12 @@ footer .footer-redes a:hover{
     margin-top: 0;
   }
 
+  /*Link*/
+
+  .main .link-proyectos .link-contenedor .link-box p {
+    font-size: 10px;
+  }
+
   /*Acerca de*/
   .main .acerca-de .contenedor .titulo-seccion, .main .acerca-de .contenedor .texto-acerca-de{
     width: 100%;
@@ -815,6 +827,20 @@ footer .footer-redes a:hover{
   .main .proyectos .galeria-proyectos .proyecto{
     width: 49%;
   }
+
+  /*Link*/
+
+  .main .link-proyectos .link-contenedor {
+    display: flex;
+    padding: 14px;
+  }
+
+  .main .link-proyectos .link-contenedor .link-box {
+    width: 30%;
+    margin-top: 10px;
+  }
+
+
   /*Nuestro equipo*/
   .main .nuestro-equipo .equipo .persona-equipo{
     flex-direction: column;

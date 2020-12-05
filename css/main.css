@@ -258,6 +258,10 @@ body{
   cursor: pointer;
 }
 
+.main .link-proyectos .link-contenedor .link-box p {
+  text-align: center;
+}
+
 .main .link-proyectos .link-contenedor .link-box:hover {
   color: #0089E0;
 }

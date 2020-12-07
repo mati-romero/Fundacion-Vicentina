@@ -105,6 +105,22 @@ body{
   transition: all .3s ease;
 }
 
+.idiomas {
+  display: inline-block;
+}
+
+.idiomas a {
+  display: inline-flex;
+  width: 25px;
+  padding: 0;
+  vertical-align: text-bottom;
+  margin-left: 5px;
+}
+
+.idiomas img {
+  width: 100%;
+}
+
 .menu-principal a:last-child, .top-redes a:last-child{
   padding-right: 0;
 }
@@ -153,7 +169,6 @@ body{
 
 .main{
   width: 100%;
-  margin-top: -68px;
 }
 
 .main .banner-principal{
@@ -168,7 +183,6 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .main .banner-principal .texto-banner{

@@ -1,3 +1,8 @@
+.menu-principal a:hover, .top-redes a:hover{
+  color: #C86EBE;
+}
+
+
 .cabeza {
 	background: #C86EBE;
 	width: 100%;
@@ -7,10 +12,6 @@
     justify-content: space-between;
  	align-items: center;
  	padding: 10px 30px;
-}
-
-.cabeza .imagen-cabeza {
-	
 }
 
 .cabeza .imagen-cabeza img {
@@ -35,6 +36,7 @@
 
 .apartado p {
 	width: 500px;
+	margin-top: 100px;
 }
 
 .apartado img {
@@ -43,4 +45,15 @@
 	border-radius: 100%;
 	border: 15px solid #C86EBE;
 	width: 400px;
+}
+
+
+/**/
+
+#Cultura-cabeza {
+	background: #FF828C;
+}
+
+#Seccion-cultura .apartado img {
+	border: 15px solid #FF828C;
 }

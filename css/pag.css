@@ -48,7 +48,7 @@
 }
 
 
-/**/
+/*Cultura*/
 
 #Cultura-cabeza {
 	background: #FF828C;
@@ -62,6 +62,8 @@
 	border: 15px solid #FF828C;
 }
 
+/*Infancia*/
+
 #Infancia-cabeza {
 	background: #FFAA64;
 }
@@ -72,4 +74,18 @@
 
 #Seccion-infancia .apartado img {
 	border: 15px solid #FFAA64;
+}
+
+/*Economia*/
+
+#Economia-cabeza {
+	background: #FFD241;
+}
+
+#Economia-menu a:hover, #Economia-menu .top-redes a:hover{
+  color: #FFD241;
+}
+
+#Economia-cultura .apartado img {
+	border: 15px solid #FFD241;
 }

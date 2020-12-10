@@ -61,6 +61,7 @@
 	border-radius: 100%;
 	border: 15px solid #C86EBE;
 	width: 400px;
+	max-height: 400px;
 }
 
 
@@ -132,4 +133,59 @@
 
 #Seccion-oficios .apartado img {
 	border: 15px solid #009BD2;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:1040px) {
+
+	.cabeza .imagen-cabeza {
+		width: 90px;
+	}
+
+	.cabeza h2 {
+		font-size: 60px;
+	}
+
+	.apartado .texto-imagen {
+		width: 400px;
+		margin-top: 25px;
+	}
+
+	.apartado .texto-simple {
+		margin-top: 25px;
+	}
+
+	.apartado img {
+		margin: 15px;
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+
+	.cabeza .imagen-cabeza {
+		width: 70px;
+	}
+
+	.cabeza h2 {
+		font-size: 40px;
+	}
+
+	.apartado .texto-imagen {
+		width: 100%;
+	}
+
+	.apartado img {
+		margin: 15px;
+		margin-top: 50px;
+		width: 200px;
+		max-height: 200px;
+	}
+
+}
+
+@media screen and (max-width:550px){
+
 }

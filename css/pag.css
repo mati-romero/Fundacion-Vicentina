@@ -18,13 +18,13 @@
 	background: #FFF;
 	border-radius: 100%;
 	padding: 30px;
-	width: 150px;
+	width: 130px;
 }
 
 .cabeza h2 {
 	display: flex;
 	color: #FFF;
-	font-size: 150px;	
+	font-size: 130px;	
 }
 
 .apartado {
@@ -88,4 +88,32 @@
 
 #Economia-cultura .apartado img {
 	border: 15px solid #FFD241;
+}
+
+/*Ambiente*/
+
+#Ambiente-cabeza {
+	background: #72D282;
+}
+
+#Ambiente-menu a:hover, #Ambiente-menu .top-redes a:hover{
+  color: #72D282;
+}
+
+#Seccion-ambiente .apartado img {
+	border: 15px solid #72D282;
+}
+
+/*Oficios*/
+
+#Oficios-cabeza {
+	background: #009BD2;
+}
+
+#Oficios-menu a:hover, #Oficios-menu .top-redes a:hover{
+  color: #009BD2;
+}
+
+#Seccion-oficios .apartado img {
+	border: 15px solid #009BD2;
 }

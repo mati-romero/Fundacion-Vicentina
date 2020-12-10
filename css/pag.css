@@ -14,17 +14,24 @@
  	padding: 10px 30px;
 }
 
-.cabeza .imagen-cabeza img {
+.cabeza .imagen-cabeza {
 	background: #FFF;
 	border-radius: 100%;
-	padding: 30px;
 	width: 130px;
+	text-align: center;
+}
+
+.cabeza .imagen-cabeza img {
+	
+	padding: 15px;
+  	padding-top: 20px;
+	width: 90%;
 }
 
 .cabeza h2 {
 	display: flex;
 	color: #FFF;
-	font-size: 130px;	
+	font-size: 100px;	
 }
 
 .apartado {
@@ -34,9 +41,18 @@
     flex-wrap: wrap;
 }
 
-.apartado p {
+.apartado .texto-imagen {
 	width: 500px;
-	margin-top: 100px;
+	margin-top: 50px;
+}
+
+.apartado strong {
+	font-size: 25px;
+}
+
+.apartado .texto-simple {
+	margin-top: 50px;
+	width: 100%;
 }
 
 .apartado img {

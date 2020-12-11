@@ -679,11 +679,12 @@ footer{
   background: #f3f4fa;
   padding: 54px 0;
   text-align: center;
+
 }
 
 footer .copy{
   color: #979797;
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -694,7 +695,7 @@ footer .footer-redes a{
   color: #979797;
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 1.0rem;
   letter-spacing: 0;
   line-height: 1.5em;
   transition: all .3s ease;

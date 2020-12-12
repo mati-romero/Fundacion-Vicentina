@@ -187,5 +187,16 @@
 }
 
 @media screen and (max-width:550px){
+	.cabeza .imagen-cabeza {
+		width: 50px;
+	}
+
+	.cabeza .imagen-cabeza img {
+		padding: 7px 5px 3px 5px;
+	}
+
+	.cabeza h2 {
+		font-size: 20px;
+	}
 
 }

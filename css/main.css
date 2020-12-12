@@ -392,6 +392,10 @@ body{
   font-weight: 400;
 }
 
+.main .acerca-de .texto-acerca-de a {
+  color: #0089E0;
+}
+
 /*Slider*/
 
 .main .contenedor-slider{

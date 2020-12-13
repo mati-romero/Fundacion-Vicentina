@@ -36,6 +36,10 @@ body{
   font-weight: 400;
 }
 
+.titulo-seccion a{
+  color: #0089E0;
+}
+
 /*Boton Volver Arriba*/
 .btn-volver-arriba{
   display: inline-block;
@@ -390,10 +394,6 @@ body{
   color: #979797;
   font-size: 1rem;
   font-weight: 400;
-}
-
-.main .acerca-de .texto-acerca-de a {
-  color: #0089E0;
 }
 
 /*Slider*/

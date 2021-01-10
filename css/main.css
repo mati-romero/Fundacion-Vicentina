@@ -36,10 +36,6 @@ body{
   font-weight: 400;
 }
 
-.titulo-seccion a{
-  color: #0089E0;
-}
-
 /*Boton Volver Arriba*/
 .btn-volver-arriba{
   display: inline-block;
@@ -371,34 +367,47 @@ body{
 
 .main .acerca-de{
   background: #F3F4FA;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
-.main .acerca-de .contenedor{
+.main .acerca-de .contenedor .titulo-seccion p {
+  text-align: justify;
+}
+
+.main .acerca-de .contenedor .titulo-seccion p:last-child {
+  text-align: center;
+}
+
+.main .acerca-de .contenedor .titulo-seccion a {
+  color: #0089E0;
+}
+
+.main .acerca-de .contenedor .contadores {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 
-.main .acerca-de .contenedor .titulo-seccion{
-  width: 33.33%;
-  text-align: left;
+.main .acerca-de .contenedor .contador {
+  text-align: center;
+  width: 200px;
 }
 
-.main .acerca-de .contenedor .titulo-seccion h2{
-  margin-bottom: 0;
+.main .acerca-de .contenedor .contador .valor {
+  margin-top: 20px;
+  font-size:25px;
+  font-weight:bold;
 }
 
-.main .acerca-de .texto-acerca-de{
-  width: 66.66%;
-  text-align: left;
+.main .acerca-de .contenedor .contador i {
+  color: #0089E0;
+  font-size: 50px;
 }
 
-.main .acerca-de .texto-acerca-de p{
+.main .acerca-de .contenedor .contador p {
   color: #979797;
-  font-size: 1rem;
-  font-weight: 400;
 }
 
 /*Slider*/

@@ -9,14 +9,17 @@ body {
 .nosotros {
 	background: #F3F4FA;
 	text-align: center;
-	margin: 0;
-	margin-top: 50px;
+	margin: 50px 0;
 }
 
 
 .historia p {
 	width: 100%;
 	text-align: left;
+}
+
+.historia strong {
+	color: #0089E0;
 }
 
 .info-box , .historia {

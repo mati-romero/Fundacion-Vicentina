@@ -4,13 +4,13 @@ $(document).ready(function () {
 
   $(window).on('scroll', function () {
 
-    var proyectosOffsetTop = $('#proyectos').offset().top;
+    var acercaDeOffsetTop = $('#acercaDe').offset().top;
 
-    if ($(window).scrollTop() >= proyectosOffsetTop) {
+    if ($(window).scrollTop() >= acercaDeOffsetTop) {
 
       fixedHeader.css('margin-top', 0);
 
-    }else if ($(window).scrollTop() <= proyectosOffsetTop/2) {
+    }else if ($(window).scrollTop() <= acercaDeOffsetTop/2) {
 
       fixedHeader.css('margin-top', '-68px');
 

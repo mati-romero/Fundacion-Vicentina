@@ -15,8 +15,8 @@ body {
 
 
 .historia p {
-	width: 500px;
-	text-align: justify;
+	width: 100%;
+	text-align: left;
 }
 
 .info-box , .historia {

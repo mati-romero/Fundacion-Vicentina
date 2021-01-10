@@ -15,7 +15,7 @@ $(document).ready(function () {
   function moverDerecha() {
     if (!slider.is(':animated')) {
       slider.animate({
-        marginLeft: '-105.6%'
+        marginLeft: '-95%'
       }, 700, function () {
         $('#slider .slide:first').insertAfter('#slider .slide:last');
         slider.css('margin-left', '-43%');
@@ -31,7 +31,7 @@ $(document).ready(function () {
   function moverIzquierda() {
     if (!slider.is(':animated')) {
       $('#slider .slide:last').insertBefore('#slider .slide:first');
-      slider.css('margin-left', '-105.6%');
+      slider.css('margin-left', '-95%');
       slider.animate({
         marginLeft: '-43%'
       }, 700, function () {

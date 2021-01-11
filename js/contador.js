@@ -1,19 +1,37 @@
 $(document).ready(function() {
+/*
+	function incrementarContadores(v) {
 
-	var i = 0;
-	$('#incrementa').click(function(){ 
-	   
-	if (i < 20 ) { /*Cambiar el >= 0 por < 10 si quieres limitar el incremento*/
-	        i++;
-	    } else if (i = i++) {
-	        i = 0;
-	    }
-	    document.getElementById("display").innerHTML = i;
-	})
+		var dataInit = parseInt(v.attr("data-init"));
+		var dataTarget = parseInt(v.attr("data-target"));
 
-	$('#disminuye').click(function(){ 
+		if (dataInit < dataTarget) {
 
-	if (i > 0) {--i;} 
-	    document.getElementById("display").innerHTML = i;
-	})
+			dataInit = dataInit+1;
+
+			v.attr("data-init",(dataInit));
+			v.html("+ " + (dataInit));
+		}
+	}
+
+	function autoContador(v) {
+		setInterval(incrementarContadores(v),500);
+	}
+
+
+	var acercaDeOffsetTop = $('#acercaDe').offset().top;
+
+	if ($(window).scrollTop() >= acercaDeOffsetTop - 132) {
+		autoContador($('#yo'));
+    }
+    else {
+    	
+    }
+
+    autoContador($('#yo'));
+    setInterval($('#yo').attr("data-init",parseInt(($('#yo')).attr("data-init"))),1000)*/
+
 });
+
+
+

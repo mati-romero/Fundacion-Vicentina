@@ -1,10 +1,18 @@
-.menu-principal a:hover, .top-redes a:hover{
-  color: #C86EBE;
+/*GENERALES*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body{
+  
+}
+
+/*Cabeza*/
 
 .cabeza {
-	background: #C86EBE;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -34,36 +42,106 @@
 	font-size: 100px;	
 }
 
+/*Main*/
+
+.main {
+	/*background: #F3F4FA;*/
+}
+
+/*Apartado*/
+
 .apartado {
 	padding: 30px;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
+    font-size: 25px;
 }
 
-.apartado .texto-imagen {
-	width: 500px;
+.apartado .parrafo {
 	margin-top: 50px;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+  	font-size: 16px;
+
 }
 
-.apartado strong {
-	font-size: 25px;
+.apartado .parrafo h3 {
+  	font-size: 20px;
+  	color: #444444;
 }
 
-.apartado .texto-simple {
+.apartado .parrafo p {
+	text-align: justify;
+	color: #444444;
+}
+
+.apartado .parrafo .imagen {
+	width: 100%;
 	margin-top: 50px;
+	text-align: center;
+}
+
+.apartado .parrafo .imagen img {
+	width: 50%;
+}
+
+.apartado .parrafo .imagen-double {
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.apartado .parrafo .imagen-double img {
+	width: 45%;
+}
+
+
+.apartado .parrafo .parrafo-imagen {
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.apartado .parrafo .textoIzquierdo {
+	width: 45%;
+}
+
+.apartado .parrafo .parrafo-imagen .imagenDerecha {
+	width: 45%;
+}
+
+.apartado .parrafo .parrafo-imagen .imagenDerecha img {
 	width: 100%;
 }
 
-.apartado img {
-	margin: 30px;
-	margin-top: 100px;
-	border-radius: 100%;
-	border: 15px solid #C86EBE;
-	width: 400px;
-	max-height: 400px;
+
+/*Cultura*/
+
+#Salud-cabeza {
+	background: #C86EBE;
 }
 
+#Salud-menu a:hover, #Salud-menu .top-redes a:hover{
+  color: #C86EBE;
+}
+
+/*Cultura*/
+
+#Cultura-cabeza {
+	background: #FF828C;
+}
+
+#Cultura-menu a:hover, #Cultura-menu .top-redes a:hover{
+  color: #FF828C;
+}
 
 /*Cultura*/
 

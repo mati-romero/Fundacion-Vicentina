@@ -143,20 +143,6 @@ body{
   color: #FF828C;
 }
 
-/*Cultura*/
-
-#Cultura-cabeza {
-	background: #FF828C;
-}
-
-#Cultura-menu a:hover, #Cultura-menu .top-redes a:hover{
-  color: #FF828C;
-}
-
-#Seccion-cultura .apartado img {
-	border: 15px solid #FF828C;
-}
-
 /*Infancia*/
 
 #Infancia-cabeza {
@@ -165,10 +151,6 @@ body{
 
 #Infancia-menu a:hover, #Infancia-menu .top-redes a:hover{
   color: #FFAA64;
-}
-
-#Seccion-infancia .apartado img {
-	border: 15px solid #FFAA64;
 }
 
 /*Economia*/

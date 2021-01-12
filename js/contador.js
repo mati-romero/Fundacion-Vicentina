@@ -1,37 +1,36 @@
 $(document).ready(function() {
-/*
-	function incrementarContadores(v) {
 
-		var dataInit = parseInt(v.attr("data-init"));
-		var dataTarget = parseInt(v.attr("data-target"));
+	var Egresados = $('#Egresados');
+	var Ninos = $('#Ninos');
+	var Familias = $('#Familias');
+	var Vacunacion = $('#Vacunacion');
+	var Alimentos = $('#Alimentos');
 
-		if (dataInit < dataTarget) {
+	function incrementarContador(objContador) {
 
-			dataInit = dataInit+1;
+		var maxValueobjContador = parseInt(objContador.attr("data-target"));
+		var contador = parseInt(objContador.attr("data-init"));
 
-			v.attr("data-init",(dataInit));
-			v.html("+ " + (dataInit));
+		if(contador < maxValueobjContador) {
+			contador = contador + 1;
+			objContador.attr("data-init",contador);
+			objContador.html("+" + contador);
 		}
 	}
 
-	function autoContador(v) {
-		setInterval(incrementarContadores(v),500);
-	}
+	$(window).on('scroll', function () {
 
+   		var acercaDeOffsetTop = $('#acercaDe').offset().top;
 
-	var acercaDeOffsetTop = $('#acercaDe').offset().top;
+		if ($(window).scrollTop() >= acercaDeOffsetTop - 132) {
+			setInterval(incrementarContador,20,Egresados);
+			setInterval(incrementarContador,20,Ninos);
+			setInterval(incrementarContador,20,Familias);
+			setInterval(incrementarContador,20,Vacunacion);
+			setInterval(incrementarContador,20,Alimentos);
 
-	if ($(window).scrollTop() >= acercaDeOffsetTop - 132) {
-		autoContador($('#yo'));
-    }
-    else {
-    	
-    }
+	    }
 
-    autoContador($('#yo'));
-    setInterval($('#yo').attr("data-init",parseInt(($('#yo')).attr("data-init"))),1000)*/
-
+  	})
+	
 });
-
-
-

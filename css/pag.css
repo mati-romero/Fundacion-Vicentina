@@ -116,11 +116,12 @@ body{
 
 .apartado .parrafo .parrafo-imagen .imagenDerecha {
 	width: 45%;
+	background-image: url("../../img/pag-img/imagen1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
-.apartado .parrafo .parrafo-imagen .imagenDerecha img {
-	width: 100%;
-}
 
 
 /*Cultura*/

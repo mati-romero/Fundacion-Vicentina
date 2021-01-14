@@ -122,7 +122,6 @@ body{
 }
 
 
-
 /*Cultura*/
 
 #Salud-cabeza {
@@ -173,10 +172,6 @@ body{
   color: #72D282;
 }
 
-#Seccion-ambiente .apartado img {
-	border: 15px solid #72D282;
-}
-
 /*Oficios*/
 
 #Oficios-cabeza {
@@ -186,10 +181,10 @@ body{
 #Oficios-menu a:hover, #Oficios-menu .top-redes a:hover{
   color: #009BD2;
 }
-
+/*
 #Seccion-oficios .apartado img {
 	border: 15px solid #009BD2;
-}
+}*/
 
 /*Responsive*/
 

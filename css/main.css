@@ -595,6 +595,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;*/
+  background-color: #009BD2; /* FFD241 009BD2*/
 }
 
 .main .contacto .contenedor-formulario{

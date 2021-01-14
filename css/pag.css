@@ -59,7 +59,7 @@ body{
 }
 
 .apartado .parrafo {
-	margin-top: 50px;
+	margin-top: 10px;
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
   	font-size: 16px;
@@ -116,10 +116,10 @@ body{
 
 .apartado .parrafo .parrafo-imagen .imagenDerecha {
 	width: 45%;
-	background-image: url("../../img/pag-img/imagen1.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+}
+
+.apartado .parrafo .parrafo-imagen .imagenDerecha img {
+	width: 100%;
 }
 
 

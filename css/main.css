@@ -95,7 +95,6 @@ body{
 .menu-principal a, .top-redes a{
   display: inline-block;
   padding: 0 10px;
-  color: #fff;
   color: #444444;
   text-decoration: none;
   font-weight: 500;
@@ -324,6 +323,65 @@ body{
   width: 90%;
   padding: 15px;
   padding-top: 20px;
+}
+
+/*Apoyo*/
+
+.main .apoyo {
+  width: 100%;
+  background: #F3F4FA;
+  padding-bottom: 100px;
+}
+
+.main .apoyo h3 {
+
+  text-align: center;
+  color: #444444;
+  font-size: 30px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.main .apoyo .lista-colaboradores {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 0;
+}
+
+.main .apoyo .lista-colaboradores .imagen-colaborador {
+  width: 22%;
+  margin: 10px;
+}
+
+.main .apoyo .lista-colaboradores .imagen-colaborador img {
+  width: 100%;
+}
+
+.main .apoyo .caja-colaboradores {
+  width: 100%;
+  overflow: hidden;
+  background: #F3F4FA;
+  padding: 54px 0;
+}
+
+
+.main .apoyo .caja-colaboradores .colaboradores {
+  width: 400%;
+  display: flex;
+  padding: 50px 0;
+}
+
+.main .apoyo .caja-colaboradores .colaboradores .colaborador {
+  width: 150px;
+  margin-right: 50px;
+}
+
+.main .apoyo .caja-colaboradores .colaboradores .colaborador img {
+  width: 100%;
+  vertical-align: top;
 }
 
 /*Modal fotos proyectos*/
@@ -599,6 +657,8 @@ body{
 }
 
 .main .contacto .contenedor-formulario{
+  width: 1000px;
+  margin: auto;
   background: #fff;
   min-height: 485px;
   border-radius: 3px;

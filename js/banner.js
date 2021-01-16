@@ -1,16 +1,18 @@
 $(document).ready(function () {
 
-  var banner = $('#banner');
+	var banner = $('#banner img');
 
-  // Definir altura dinámica para el banner
-  function alturaBanner(){
+	function disfuminar() {
 
-    var vpaltura = $(window).height();
-    banner.css('height', vpaltura);
+		if(banner.css("opacity") == 1.0) {
+			banner.animate({opacity: "0.0"},1500);
+		}
+		else {
+			banner.animate({opacity: "1.0"},1500);
+		}
+	}
 
-  }
-  alturaBanner();
 
-  $(window).resize(alturaBanner);
+	setInterval(disfuminar,10000);
 
 });

@@ -13,6 +13,6 @@ $(document).ready(function () {
 	}
 
 
-	setInterval(disfuminar,10000);
+	setInterval(disfuminar,7000);
 
 });

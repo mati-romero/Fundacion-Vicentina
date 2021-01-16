@@ -267,7 +267,6 @@ body{
   justify-content: space-between;
   padding: 34px;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 50px;
 }
 
 .main .link-proyectos .link-contenedor .link-box {
@@ -523,7 +522,7 @@ body{
 
 .main .nuestro-equipo{
   background: #F3F4FA;
-  padding-top: 54px;
+  padding-top: 20px;
   padding-bottom: 108px;
 }
 

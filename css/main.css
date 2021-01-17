@@ -228,7 +228,7 @@ body{
 
 .main .proyectos{
   background: #F3F4FA;
-  padding: 108px 0 54px 0;
+  padding: 54px 0 54px 0;
 }
 
 .main .proyectos .galeria-proyectos{
@@ -326,7 +326,7 @@ body{
 .main .apoyo {
   width: 100%;
   background: #F3F4FA;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 .main .apoyo h3 {
@@ -520,7 +520,7 @@ body{
 .main .nuestro-equipo{
   background: #F3F4FA;
   padding-top: 20px;
-  padding-bottom: 108px;
+  padding-bottom: 50px;
 }
 
 .main .nuestro-equipo .equipo{

@@ -6,10 +6,10 @@ $(document).ready(function () {
 
 	function desfilar() {
 		colaboradores.animate({
-			marginLeft: '-150px'
+			marginLeft: '-139px'
 		},1000,function() {
 			$('#colaboradores .colaborador:first').insertAfter('#colaboradores .colaborador:last');
-        	colaboradores.css('margin-left', '0');
+        	colaboradores.css('margin-left', '0px');
 		});
 	}
 

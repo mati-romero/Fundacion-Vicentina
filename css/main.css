@@ -880,6 +880,12 @@ footer .footer-redes a:hover{
     margin-top: 0;
   }
 
+  /*Banner*/
+
+  .banner-principal {
+    display: none;
+  }
+
   /*Link*/
 
   .main .link-proyectos .link-contenedor .link-box p {
@@ -927,8 +933,8 @@ footer .footer-redes a:hover{
 
 @media screen and (max-width:550px){
   /*Banner principal*/
-  .main .banner-principal .texto-banner h1{
-    font-size: 4rem;
+  .main .banner-principal {
+    display: none;
   }
   /*Titulo secciones*/
   .titulo-seccion h2{

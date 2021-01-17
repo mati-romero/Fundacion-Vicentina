@@ -371,7 +371,7 @@ body{
 }
 
 .main .apoyo .caja-colaboradores .colaboradores .colaborador {
-  width: 150px;
+  width: 100px;
   margin-right: 50px;
 }
 
@@ -890,6 +890,13 @@ footer .footer-redes a:hover{
   .main .acerca-de .contenedor .titulo-seccion, .main .acerca-de .contenedor .texto-acerca-de{
     width: 100%;
     text-align: center;
+  }
+
+  /*Contador*/
+
+  .main .acerca-de .contenedor .contadores {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   /*Contacto*/

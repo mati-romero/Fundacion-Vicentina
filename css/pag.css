@@ -109,7 +109,7 @@ body{
 	align-items: center;
 }
 
-.apartado .parrafo .textoIzquierdo {
+.apartado .parrafo .textoIzquierdo { 
 	width: 45%;
 }
 
@@ -119,7 +119,9 @@ body{
 
 .apartado .parrafo .parrafo-imagen .imagenDerecha img {
 	width: 100%;
+	margin: 0;
 }
+
 
 
 /*Cultura*/
@@ -215,39 +217,23 @@ body{
 }
 
 @media screen and (max-width: 900px) {
-
-	.cabeza .imagen-cabeza {
-		width: 70px;
+	
+	.apartado .parrafo .imagen-double {
+		justify-content: center;
 	}
 
-	.cabeza h2 {
-		font-size: 40px;
+	.apartado .parrafo .imagen-double img {
+		margin: 10px;
 	}
 
-	.apartado .texto-imagen {
+	.apartado .parrafo .parrafo-imagen {
+		display: block;
+
+	}
+
+	.apartado .parrafo .textoIzquierdo , .apartado .parrafo .parrafo-imagen .imagenDerecha {
 		width: 100%;
 	}
 
-	.apartado img {
-		margin: 15px;
-		margin-top: 50px;
-		width: 200px;
-		max-height: 200px;
-	}
-
-}
-
-@media screen and (max-width:550px){
-	.cabeza .imagen-cabeza {
-		width: 50px;
-	}
-
-	.cabeza .imagen-cabeza img {
-		padding: 7px 5px 3px 5px;
-	}
-
-	.cabeza h2 {
-		font-size: 20px;
-	}
 
 }

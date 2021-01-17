@@ -899,6 +899,16 @@ footer .footer-redes a:hover{
     justify-content: center;
   }
 
+  /*Apoyo*/
+
+  .main .apoyo .lista-colaboradores .imagen-colaborador {
+    width: 40%;
+  }
+
+  .main .apoyo .caja-colaboradores {
+    display: none;
+  }
+
   /*Contacto*/
   .main .contacto .contenedor-formulario .formulario{
     width: 100%;

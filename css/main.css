@@ -532,11 +532,11 @@ body{
 }
 
 .main .nuestro-equipo .equipo .persona-equipo{
-  background: #fff;
+  /*background: #fff;*/
   padding: 50px;
   width: 100%;
   max-width: 300px;
-  box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
+  /*box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);*/
   text-align: center;
 }
 
@@ -556,6 +556,32 @@ body{
   width: 100%;
   border-radius: 100%;
 }
+
+#Mariana {
+  border: 7px solid  #FF828C;
+}
+
+#Rodrigo {
+  border: 7px solid  #FFD241;
+
+}
+
+#Marina {
+  border: 7px solid  #72D282;
+}
+
+#Matias {
+  border: 7px solid  #009BD2;
+}
+
+#Guadalupe {
+  border: 7px solid  #FFAA64;
+}
+
+#Antonella {
+  border: 7px solid  #C86EBE;
+}
+
 
 .main .nuestro-equipo .equipo .persona-equipo .texto h3{
   font-size: 1.3rem;
@@ -750,36 +776,133 @@ body{
 
 /* ------ PIE DE PÁGINA ------ */
 
-footer{
-  background: #f3f4fa;
-  background-color: #0089E0;
-  padding: 54px 0;
-  text-align: center;
-
+footer {
+  background-color: #979797;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #F3F4FA;
 }
 
-footer .copy{
-  color: #979797;
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 15px;
-  color: #444444;
+footer h3 {
+  color: #FFF;
 }
 
-footer .footer-redes a{
-  display: inline-block;
-  padding: 0 10px;
-  color: #979797;
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.footer .footer-nosotros {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.footer-logo {
+  width: 48%;
+}
+
+.footer-logo img {
+  width: 80%;
+}
+
+.footer .footer-nosotros .caja-nosotros {
+  width: 48%;
+}
+
+.footer .footer-nosotros .caja-nosotros p {
+  margin-top: 20px;
+}
+
+.footer .footer-nosotros .caja-nosotros .boton-nosotros {
+  text-align: left;
+  margin-top: 10%;
+}
+
+.footer .footer-nosotros .caja-nosotros .boton-nosotros a {
+  color: #F3F4FA;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.5rem;
-  letter-spacing: 0;
-  line-height: 1.5em;
-  transition: all .3s ease;
-  color: #444444;
+  padding: 10px;
+  border:1px solid #F3F4FA;
 }
 
-footer .footer-redes a:hover{
+.footer .footer-nosotros .caja-nosotros .boton-nosotros a:hover {
+  background-color: #F3F4FA;
+  color: #979797;
+}
+
+.footer .footer-proyectos {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer .footer-proyectos h3 {
+  width: 100%;
+}
+
+.footer .footer-proyectos .fProyecto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  border:1px solid #F3F4FA;
+  justify-content: space-between;
+  width: 45%;
+  margin: 20px 0;
+  margin-right: 20px;
+}
+
+.footer .footer-proyectos .fProyecto p {
+  margin-left: 20px;
+}
+
+.footer .footer-proyectos .fProyecto .fLink {
+  width: 10%;
+  border-left: 1px solid #F3F4FA;
+}
+
+.footer .footer-proyectos .fProyecto .fLink a img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.footer .footer-contactos {
+  width: 25%;
+}
+
+.footer .footer-contactos .fContacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+}
+
+.footer .footer-contactos .fContacto  i {
+  margin-right: 10px;
+}
+
+.footer-redes {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #F3F4FA;
+  padding: 50px;
+
+}
+
+.footer-redes a {
+  text-decoration: none;
+  font-size: 30px;
+  margin: 20px;
+  color: #F3F4FA;
+}
+
+.footer-redes a:hover {
   color: #0089E0;
 }
 

@@ -23,11 +23,11 @@ $(document).ready(function() {
    		var acercaDeOffsetTop = $('#acercaDe').offset().top;
 
 		if ($(window).scrollTop() >= acercaDeOffsetTop - 132) {
-			setInterval(incrementarContador,20,Egresados);
-			setInterval(incrementarContador,20,Ninos);
-			setInterval(incrementarContador,20,Familias);
-			setInterval(incrementarContador,20,Vacunacion);
-			setInterval(incrementarContador,20,Alimentos);
+			setInterval(incrementarContador,50,Egresados);
+			setInterval(incrementarContador,50,Ninos);
+			setInterval(incrementarContador,50,Familias);
+			setInterval(incrementarContador,50,Vacunacion);
+			setInterval(incrementarContador,50,Alimentos);
 
 	    }
 

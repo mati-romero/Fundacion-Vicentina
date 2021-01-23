@@ -38,6 +38,12 @@ $(document).ready(function () {
     $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);
   });
 
+  $('a.scroll-proyecto').on('click', function (e) {
+    e.preventDefault();
+    var seccionOffsetTop = $($(this).attr('href')).offset().top - 80
+    $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);
+  });
+
   $('a.scroll-acercaDe').on('click', function (e) {
     e.preventDefault();
     var seccionOffsetTop = $($(this).attr('href')).offset().top - 122

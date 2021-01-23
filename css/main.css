@@ -909,6 +909,30 @@ footer h3 {
 
 /* ----- MEDIA QUERIES ----- */
 
+@media screen and (max-width:1280px) {
+  /* ------ PIE DE PÁGINA ------ */
+  .footer .footer-proyectos {
+      justify-content: center;
+      width: 40%;
+  }
+
+  .footer .footer-proyectos h3 {
+    width: 440px;
+  }
+
+  .footer .footer-proyectos .fProyecto {
+    width: 200px;
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+  /* ------ PIE DE PÁGINA ------ */
+  .footer .footer-proyectos h3 {
+    width: 220px;
+  }
+}
+
 @media screen and (max-width:1040px){
   /*Nuestro equipo*/
   .main .nuestro-equipo .titulo-seccion{
@@ -1055,6 +1079,23 @@ footer h3 {
     text-align: center;
   }
 
+  /* ------ PIE DE PÁGINA ------ */
+  .footer .footer-nosotros {
+    width: 25%;
+  }
+
+  .footer .footer-nosotros .footer-logo {
+    display: none;
+  }
+
+  .footer .footer-nosotros .caja-nosotros {
+    width: 100%;
+  }
+
+  .footer .footer-contactos {
+    width: 33%;
+  }
+
 }
 
 @media screen and (max-width:550px){
@@ -1115,4 +1156,18 @@ footer h3 {
   .main .contacto .contenedor-formulario .formulario{
     padding: 70px 40px;
   }
+
+  /* ------ PIE DE PÁGINA ------ */
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .footer .footer-nosotros ,.footer .footer-proyectos {
+    display: none;
+  }
+
+  .footer .footer-contactos {
+    width: 100%;
+  }
+
 }

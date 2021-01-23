@@ -1,0 +1,57 @@
+@media screen and (max-width:1280px) {
+	.footer .footer-proyectos {
+		  justify-content: center;
+		  width: 40%;
+	}
+
+	.footer .footer-proyectos h3 {
+	  width: 440px;
+	}
+
+	.footer .footer-proyectos .fProyecto {
+		width: 200px;
+	}
+
+}
+
+@media screen and (max-width:1024px) {
+	.footer .footer-proyectos h3 {
+	  width: 220px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+	.footer .footer-nosotros {
+	  width: 25%;
+	}
+
+	.footer .footer-nosotros .footer-logo {
+	  display: none;
+	}
+
+	.footer .footer-nosotros .caja-nosotros {
+	  width: 100%;
+	}
+
+	.footer .footer-contactos {
+	  width: 33%;
+	}
+
+}
+
+@media screen and (max-width:550px) {
+	.footer {
+		flex-wrap: wrap;
+	}
+
+	.footer .footer-nosotros ,.footer .footer-proyectos {
+		display: none;
+	}
+
+	.footer .footer-contactos {
+		width: 100%;
+	}
+
+
+}

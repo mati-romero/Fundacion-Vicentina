@@ -802,11 +802,11 @@ footer h3 {
   flex-wrap: nowrap;
 }
 
-.footer-logo {
+.footer .footer-nosotros .footer-logo {
   width: 48%;
 }
 
-.footer-logo img {
+.footer .footer-nosotros .footer-logo img {
   width: 80%;
 }
 

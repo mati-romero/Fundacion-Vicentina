@@ -72,7 +72,6 @@ body{
   min-height: 68px;
   border-bottom: 1px solid rgba(255,255,255, 0.15);
   padding: 0 36px;
-  background: transparent;
   background: #fff;
   display: flex;
   flex-direction: row;
@@ -160,6 +159,40 @@ body{
 /*Mobile menu*/
 .menu-mobile{
   display: none;
+}
+
+/* Menu Desplegable */
+
+.menu-desplegable {
+  position: fixed;
+  top:  80px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.menu-desplegable .menu-contenedor {
+  background-color: #FFF;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+}
+
+.menu-desplegable .menu-contenedor a {
+  display: block;
+  padding: 0 10px;
+  color: #444444;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.976rem;
+  letter-spacing: 0;
+  line-height: 1.8em;
+  border-bottom: 1px solid #444444;
+}
+
+.menu-desplegable .menu-contenedor a:hover{
+  color: #0089E0;
 }
 
 /* ------ MAIN ------ */

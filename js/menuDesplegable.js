@@ -5,5 +5,9 @@ $(document).ready(function() {
 
 	$('.menu-contenedor').mouseleave(function() {
 		$('#menuDesplegable').css('display','none');
+
+		$('').offset().left;
+
+		$('#menuDesplegable').css('left',500);
 	})
 });

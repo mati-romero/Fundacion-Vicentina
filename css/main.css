@@ -168,8 +168,8 @@ body{
   top:  80px;
   left: 0;
   width: 100%;
-  text-align: center;
   display: none;
+  z-index: 1000;
 }
 
 .menu-desplegable .menu-contenedor {
@@ -197,11 +197,11 @@ body{
 
 /* ------ MAIN ------ */
 
-/*Banner principal*/
-
 .main{
   width: 100%;
 }
+
+/*Banner principal*/
 
 .main .banner-principal{
   width: 100%;
@@ -214,24 +214,46 @@ body{
   background-size: cover;
 }
 
-.main .banner-principal .banner img {
+/*--------------------------------------*/
+.banner-slider {
   width: 100%;
-  display: flex;
+  overflow: hidden;
 }
+
+.banner-slider .sliders {
+  width: 600%;
+  display: flex;
+  padding: 0;
+}
+
+.banner-slider .sliders .slide {
+  width: 100%;
+}
+
+.banner-slider .sliders .slide  img {
+  width: 100%;
+}
+
+
+
+/*--------------------------------------*/
 
 .main .banner-principal .texto-banner{
   display: inline-block;
-  width: 90%;
+  width: 25%;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
 }
 
 .main .banner-principal .texto-banner h2{
-  font-weight: 300;
-  color: #fff;
+  font-weight: 500;
+  color: #444444;
   margin-bottom: 20px;
 }
 
@@ -239,7 +261,7 @@ body{
   font-size: 6.0625rem;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: #444444;
   margin-bottom: 30px;
 }
 
@@ -255,6 +277,7 @@ body{
 .main .banner-principal .texto-banner a:hover{
   background: #fff;
   color: #0089E0;
+  border:3px solid #0089E0;
 }
 
 /*Proyectos*/

@@ -103,6 +103,10 @@ body{
   transition: all .3s ease;
 }
 
+.menu-principal a:hover, .top-redes a:hover{
+  color: #0089E0;
+}
+
 .idiomas {
   display: inline-block;
 }
@@ -127,9 +131,18 @@ body{
   font-size: 1rem;
 }
 
-.menu-principal a:hover, .top-redes a:hover{
-  color: #0089E0;
+.botonDonar {
+  padding: 10px;
+  background-color: #FFD241;
+  border-radius: 15px;
 }
+
+.botonDonar a {
+  text-decoration: none;
+  color: #444444;
+}
+
+
 
 .fixed-header{
   width: 100%;
@@ -381,7 +394,7 @@ body{
 
 .contenedor-noticias {
   background-color: #F3F4FA;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .verMasNoticias  {
@@ -407,6 +420,7 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 50px 0;
 }
 
 .noticia {
@@ -433,6 +447,7 @@ body{
   display: none;
   overflow: scroll;
   height: 600px;
+  max-height: 600px;
 }
 
 .noticiasOcultas::-webkit-scrollbar {

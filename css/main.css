@@ -177,19 +177,18 @@ body{
 /* Menu Desplegable */
 
 .menu-desplegable {
-  position: fixed;
-  top:  80px;
+  position: absolute;
+  top: 80px;
   left: 0;
-  width: 100%;
   display: none;
   z-index: 1000;
+  background: red;
 }
 
 .menu-desplegable .menu-contenedor {
   background-color: #FFF;
   text-align: center;
   width: 200px;
-  margin: auto;
 }
 
 .menu-desplegable .menu-contenedor a {

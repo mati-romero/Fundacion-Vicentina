@@ -6,50 +6,23 @@ body {
 	border-bottom: 1px solid rgba(204,204,204,0.5);
 }
 
-
-/*Main*/
-
-.main {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
+.nosotros {
+	background: #F3F4FA;
+	text-align: center;
+	margin: 50px 0;
 }
 
-.mainMenu {
-	width: 20%;
-	margin: 0;
-	margin-top: 10px;
-	border-right: 1px solid #CCCCCC;
+
+.historia p {
+	width: 100%;
 	text-align: left;
 }
 
-.mainMenu a {
-	text-decoration: none;
+.historia strong {
 	color: #0089E0;
-	display: block;
-	font-size: 25px;
-	width: 100%;
-	padding: 5px 35px; 
 }
 
-.mainMenu a:hover {
-	background: #979797;
-	color: #F3F4FA;
-}
-
-.mainContenido {
-	width: 80%;
-	padding: 100px 0;
-}
-
-/* Mision y Vision */
-
-#Mision, #Objetivos , #Historia , #equipo {
-	display: none;
-}
-
-.info-box {
+.info-box , .historia {
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;

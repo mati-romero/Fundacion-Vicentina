@@ -474,6 +474,35 @@ body{
     border-radius: 10px;  
 }
 
+/*Donaciones*/
+
+
+.donaciones {
+  width: 100%;
+  background: #F3F4FA;
+}
+
+.donaciones .caja-botones {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.donaciones .caja-botones .boton {
+  margin:  0 20px;
+  width: 200px;
+}
+
+.donaciones .caja-botones .boton img {
+  width: 100%;
+}
+
+.donaciones .caja-botones .boton img:hover {
+  filter: hue-rotate(-180deg); 
+}
+
 /*Apoyo*/
 
 .main .apoyo {

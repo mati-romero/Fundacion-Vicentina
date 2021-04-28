@@ -65,3 +65,25 @@ body {
 	max-width: 1080px;
 	margin: 0 auto;
 }
+
+/*Titulo Seccion*/
+
+.titulo-seccion {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.titulo-seccion h2 {
+	color: #0089E0;
+	font-size: 3.125rem;
+	margin-bottom: 15px;
+	font-weight: 500;
+	line-height: 1.0; 
+}
+
+.titulo-seccion p {
+	color: #979797;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+}

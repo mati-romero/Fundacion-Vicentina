@@ -1,0 +1,120 @@
+/*FOOTER*/
+
+.footer {
+	background: #979797;
+	color: #F3F4FA;
+	padding: 30px 60px;
+}
+
+.footer h4 {
+	width: 100%;
+	font-size: 15px;
+	color: #F3F4FA;
+}
+
+.footer .atajos {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-bottom: 1px solid  #F3F4FA;
+}
+
+.footer .atajos  .atajo-nosotros {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 30%;
+}
+
+.footer .atajos .atajo-nosotros .logo {
+	width: 180px;
+}
+
+.footer .atajos .atajo-nosotros .texto {
+	width: 300px;
+}
+
+.footer .atajos .atajo-nosotros .logo img {
+	width: 100%;
+}
+
+.footer .atajos  .atajo-nosotros .boton {
+	margin-top: 20px;
+}
+
+.footer .atajos  .atajo-nosotros .boton a {
+	text-decoration: none;
+	color: #F3F4FA;
+	padding: 10px;
+	border: 1px solid #F3F4FA;
+}
+
+.footer .atajos .atajo-proyectos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 30%;
+	justify-content: space-between;
+}
+
+.footer .atajos .atajo-proyectos .proyecto {
+	padding: 2px 5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	border: 1px solid #F3F4FA;
+	justify-content: space-between;
+	width: 230px;
+	margin: 10px 10px 10px 0px;
+}
+
+.footer .atajos .atajo-proyectos .proyecto .link {
+	width: 30px;
+}
+
+.footer .atajos .atajo-proyectos img {
+	width: 100%;
+}
+
+.footer .colibri {
+	margin-top: 15px;
+}
+
+.footer .colibri .colibri-imagen {
+	width: 100px;
+}
+
+.footer .colibri .colibri-imagen img {
+	width: 100%;
+}
+
+.footer .atajos .atajo-contactos {
+	width: auto;
+}
+
+.footer .atajos .atajo-contactos p {
+	display: table;	
+}
+
+.footer .redes-sociales {
+	padding: 50px;
+	text-align: center;
+}
+
+.footer .redes-sociales a {
+	text-decoration: none;
+	color: #F3F4FA;
+	margin-right: 30px;
+	font-size: 30px;
+}
+
+.footer .redes-sociales a:hover {
+	color: #0089E0;
+}

@@ -89,6 +89,16 @@
 	font-size: 18px;
 }
 
+.imagen {
+	width: 50%;
+	text-align: center;
+	margin: 50px auto;
+}
+
+.imagen img {
+	width: 100%
+}
+
 .texto-foto {
 	display: flex;
 	flex-direction: row;
@@ -133,6 +143,11 @@
 	color: #C86EBE;
 }
 
+#Salud .footer .atajos  .atajo-nosotros .boton a:hover {
+	border: 1px solid #C86EBE;
+	color: #C86EBE;
+}
+
 /*Oficios*/
 
 #Oficios .encabezado-nav .nav-items a:hover {
@@ -148,6 +163,11 @@
 }
 
 #Oficios .footer .redes-sociales a:hover {
+	color: #009BD2;
+}
+
+#Oficios .footer .atajos  .atajo-nosotros .boton a:hover {
+	border: 1px solid #009BD2;
 	color: #009BD2;
 }
 
@@ -168,6 +188,11 @@
 	color: #FF828C;
 }
 
+#Cultura .footer .atajos  .atajo-nosotros .boton a:hover {
+	border: 1px solid #FF828C;
+	color: #FF828C;
+}
+
 /*Economia*/
 #Economia .encabezado-nav .nav-items a:hover {
 	color: #FFD241;
@@ -182,6 +207,11 @@
 }
 
 #Economia .footer .redes-sociales a:hover {
+	color: #FFD241;
+}
+
+#Economia .footer .atajos  .atajo-nosotros .boton a:hover {
+	border: 1px solid #FFD241;
 	color: #FFD241;
 }
 
@@ -202,6 +232,11 @@
 	color: #72D282;
 }
 
+#Ambiente .footer .atajos  .atajo-nosotros .boton a:hover {
+	border: 1px solid #72D282;
+	color: #72D282;
+}
+
 /*Infancia*/
 #Infancia .encabezado-nav .nav-items a:hover {
 	color: #FFAA64;
@@ -216,6 +251,11 @@
 }
 
 #Infancia .footer .redes-sociales a:hover {
+	color: #FFAA64;
+}
+
+#Infancia .footer .atajos  .atajo-nosotros .boton a:hover {
+	border: 1px solid #FFAA64;
 	color: #FFAA64;
 }
 
@@ -301,4 +341,50 @@
 	color: #979797;
 	font-size: 0.9rem;
 	font-weight: 400;
+}
+
+/*Iframe*/
+
+.iframe {
+	margin: 50px 0;
+}
+
+/*Carpetas*/
+
+.carpeta {
+	margin-top: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.carpeta .seccion-archivo {
+	margin-top: 50px;
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.carpeta .seccion-archivo .archivo {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.carpeta .seccion-archivo .archivo:hover {
+	filter: hue-rotate(158deg);
+}
+
+.carpeta .seccion-archivo .archivo a {
+	text-decoration: none;
+	color: #979797;
+	font-size: 15px;
+}
+
+.carpeta .seccion-archivo .archivo a img {
+	width: 70px;
 }

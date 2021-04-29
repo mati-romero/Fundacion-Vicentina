@@ -54,6 +54,11 @@
 	border: 1px solid #F3F4FA;
 }
 
+.footer .atajos  .atajo-nosotros .boton a:hover {
+	border: 1px solid #0089E0;
+	color: #0089E0;
+}
+
 .footer .atajos .atajo-proyectos {
 	display: flex;
 	flex-direction: row;

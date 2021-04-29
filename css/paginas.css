@@ -346,6 +346,7 @@
 /*Iframe*/
 
 .iframe {
+	display: none;
 	margin: 50px 0;
 }
 
@@ -387,4 +388,22 @@
 
 .carpeta .seccion-archivo .archivo a img {
 	width: 70px;
+}
+
+/*Cbu*/
+
+.cbu {
+	margin-top: 50px;
+	width: 400px;
+}
+
+.cbu p {
+	color: #0089E0;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: 500;
+}
+
+.cbu p:nth-child(1) , .cbu p:nth-child(2) {
+	border-bottom: 1px solid #0089E0;
 }

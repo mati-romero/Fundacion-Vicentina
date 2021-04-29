@@ -394,23 +394,6 @@ body{
   padding: 50px 0;
 }
 
-.verMasNoticias  {
-  padding: 50px 0;
-  width: 100%;
-  text-align: right;
-}
-
-.verMasNoticias a {
-  color: #0089E0;
-  cursor: pointer;
-  pointer-events: none;
-}
-
-#verMenosNoticias {
-  display: none;
-}
-
-
 .noticias {
   width: 100%;
   display: flex;
@@ -423,6 +406,11 @@ body{
 .noticia {
   width: 30%;
   padding: 10px;
+  text-decoration: none;
+}
+
+.noticia:hover {
+  border: 3px solid #009BD2;
 }
 
 .noticia  img {
@@ -431,6 +419,7 @@ body{
 
 .noticia h3 {
   font-size: 1.5rem;
+  color: #444;
 }
 
 .noticia p {
@@ -438,6 +427,10 @@ body{
   font-size: 0.7rem;
   font-weight: 400;
   height: 120px;
+}
+
+.noticia time {
+  color: #444;
 }
 
 .noticiasOcultas {

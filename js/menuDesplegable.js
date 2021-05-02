@@ -2,6 +2,8 @@ $(document).ready(function() {
 
 	$(".boton-menu").on('click',function() {
 
+		$(".menu-desplegable").css('display','none');
+
 		var sw = parseInt($(this).attr("data-sw"));
 		var menu = $($(this).attr("data-menu"));
 
@@ -15,6 +17,7 @@ $(document).ready(function() {
 			var valuePosition = positionLeft - e;
 
 			menu.css('left',valuePosition);
+			var menu = $($(this).attr("data-menu"));
 			$(this).attr("data-sw","1");
 		}
 		else {

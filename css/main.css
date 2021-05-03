@@ -399,22 +399,37 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 50px 0;
 }
 
 .noticia {
-  width: 30%;
+  width: 50%;
   padding: 10px;
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 
-.noticia:hover {
-  border: 3px solid #009BD2;
+.noticia:hover h3{
+  color: #009BD2;
+}
+
+.noticia .noticia-imagen {
+  width: 30%;
 }
 
 .noticia  img {
   width: 100%;
+  border-radius: 50%;
+}
+
+.noticia .noticia-texto {
+  width: 60%;
+  margin-left: 20px;
 }
 
 .noticia h3 {
@@ -426,7 +441,6 @@ body{
   color: #979797;
   font-size: 0.7rem;
   font-weight: 400;
-  height: 120px;
 }
 
 .noticia time {

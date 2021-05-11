@@ -1086,18 +1086,4 @@ body{
   .main .contacto .contenedor-formulario .formulario{
     padding: 70px 40px;
   }
-
-  /* ------ PIE DE PÁGINA ------ */
-  .footer {
-    flex-wrap: wrap;
-  }
-
-  .footer .footer-nosotros ,.footer .footer-proyectos {
-    display: none;
-  }
-
-  .footer .footer-contactos {
-    width: 100%;
-  }
-
 }

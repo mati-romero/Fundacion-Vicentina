@@ -109,8 +109,15 @@ body {
 	font-weight: 500;
 }
 
-/*Boton menu*/
+/* Responsive */
 
-.boton-menu {
 
+@media screen and (max-width:576px) {
+	.idiomas a {
+		width: 20px;
+	}
+
+	.contenedor {
+		padding: 0 5px;
+	}
 }

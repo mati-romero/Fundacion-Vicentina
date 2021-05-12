@@ -417,6 +417,14 @@
 		width: 60px;
 	}
 
+	.texto-foto .texto {
+		width: 100%;
+	}
+
+	.texto-foto .foto {
+		width: 100%;
+	}
+
 
 }
 

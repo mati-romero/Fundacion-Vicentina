@@ -84,6 +84,20 @@
 	font-size: 18px;
 }
 
+.main .boton-a {
+	margin: 50px 0 100px 0;
+}
+
+.main .boton-a a {
+
+	text-decoration: none;
+	padding: 8px 20px;
+	background: #009ee3;
+	color: #fff;
+	transition: all .7s ease;
+	border-radius: 0.2857142857142857em;
+}
+
 .imagen {
 	width: 50%;
 	text-align: center;
@@ -278,14 +292,14 @@
 }
 
 .main .nuestro-equipo .equipo .persona-equipo .foto {
-	width: 50%;
+	width: 30%;
 	max-width: 200px;
 	display: inline-block;
 	margin-bottom: 10px;
 }
 
 .main .nuestro-equipo .equipo .persona-equipo .texto {
-	width: 100%;
+	width: 70%;
 	margin-left: 20px;
 }
 
@@ -294,28 +308,60 @@
 	border-radius: 100%;
 }
 
-#Mariana {
+.main .nuestro-equipo .equipo .persona-equipo .correo {
+	margin-top: 10px;
+}
+
+.main .nuestro-equipo .equipo .persona-equipo a {
+	text-decoration: none;
+}
+
+#Mariana img {
  	border: 7px solid  #FF828C;
 }
 
-#Rodrigo {
+#Mariana .correo , #Mariana a {
+	color: #FF828C;
+}
+
+#Rodrigo img {
  	border: 7px solid  #FFD241;
 }
 
-#Marina {
+#Rodrigo .correo , #Rodrigo a {
+	color: #FFD241;
+}
+
+#Marina img {
  	border: 7px solid  #72D282;
 }
 
-#Matias {
+#Marina .correo , #Marina a {
+	color: #72D282;
+}
+
+#Matias img {
  	border: 7px solid  #009BD2;
 }
 
-#Guadalupe {
+#Matias .correo , #Matias a {
+	color: #009BD2;
+}
+
+#Guadalupe img {
  	border: 7px solid  #FFAA64;
 }
 
-#Antonella {
+#Guadalupe .correo , #Guadalupe a {
+	color: #FFAA64;
+}
+
+#Antonella img {
  	border: 7px solid  #C86EBE;
+}
+
+#Antonella .correo , #Antonella a {
+	color: #C86EBE;
 }
 
 
@@ -405,6 +451,36 @@
 	text-align: left;
 }
 
+.mercadopago {
+	width: 100%;
+	margin: 50px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mercadopago .links {
+	display: flex;
+	width: 20%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid gray;
+	padding: 10px;
+	border-radius: 0.2857142857142857em;
+}
+
+.mercadopago .links:hover {
+	border: 1px solid #009ee3;
+}
+
+.mercadopago .links:hover p {
+	color: #FFD241;
+}
+
+
 /* Responsive */
 
 @media screen and (max-width:768px) {
@@ -422,6 +498,25 @@
 	}
 
 	.texto-foto .foto {
+		width: 100%;
+	}
+
+	.mercadopago .links {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.main .nuestro-equipo .equipo .persona-equipo {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 10px;
+	}
+
+	.main .nuestro-equipo .equipo .persona-equipo .foto {
+		width: 100%;
+	}
+
+	.main .nuestro-equipo .equipo .persona-equipo .texto {
 		width: 100%;
 	}
 

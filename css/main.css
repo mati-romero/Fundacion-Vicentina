@@ -853,20 +853,6 @@ body{
   .main .apoyo .caja-colaboradores {
     display: none;
   }
-
-  /*Contacto*/
-  .main .contacto .contenedor-formulario .formulario{
-    width: 100%;
-    text-align: center;
-  }
-
-  .main .contacto .contenedor-formulario .foto{
-    display: none;
-  }
-
-  .main .contacto .contenedor-formulario .formulario form input[type="text"], .main .contacto .contenedor-formulario .formulario form input[type="email"], .main .contacto .contenedor-formulario .formulario form textarea{
-    text-align: center;
-  }
 }
 
 @media screen and (max-width:550px){
@@ -922,9 +908,5 @@ body{
   }
   .main .info-extra .contenedor .info .contenido-info:first-child{
     margin-bottom: 40px;
-  }
-  /*Contacto*/
-  .main .contacto .contenedor-formulario .formulario{
-    padding: 70px 40px;
   }
 }

@@ -38,6 +38,17 @@ $(document).ready(function () {
 
   }
 
+  function valAsunto(e) {
+
+    if (mensaje.val() == '' || asunto.val() == null) {
+      e.preventDefault();
+      $('input[type="text"] + .error').css('display', 'block');
+    } else {
+      $('input[type="text"] + .error').css('display', 'none');
+    }
+
+  }
+
   function validacion(e) {
     valNombre(e);
     valEmail(e);

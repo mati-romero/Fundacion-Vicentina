@@ -57,16 +57,20 @@
 						Si querés saber más de nuestra fundación, como colaborar, o tenés alguna duda, contactate con nosotros.
 					</p>
 
-					<form>
-						<div>
+					<form action="../php/contacto.php" method="POST">
+						<div class="entrada">
 							<input type="text" name="nombre" placeholder="Nombre" id="nombre">
 							<p class="error">Por favor, escriba su nombre.</p>
 						</div>
-						<div>
+						<div class="entrada">
 							<input type="email" name="email" placeholder="Tu correo" id="email">
 							<p class="error">Por favor, escriba su correo</p>
 						</div>
-						<div>
+						<div class="entrada">
+							<input type="text" name="asunto" placeholder="Asunto" id="asunto">
+							<p class="error">Por favor, escriba su asunto.</p>
+						</div>
+						<div class="entrada">
 							<textarea name="mensaje" placeholder="Mensaje" id="mensaje"></textarea>
 							<p class="error">Por favor escriba su mensaje</p>
 						</div>

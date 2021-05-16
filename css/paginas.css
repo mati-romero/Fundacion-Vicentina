@@ -396,20 +396,20 @@
 .carpeta {
 	margin-top: 100px;
 	width: 100%;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: stretch;
-	justify-content: flex-start;
 }
 
 .carpeta .seccion-archivo {
 	margin-top: 50px;
-	width: 25%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 
 .carpeta .seccion-archivo .archivo {
 	margin-top: 30px;
+	margin-right: 50px;
 	width: 80px;
 	text-align: center;
 }
@@ -518,6 +518,31 @@
 
 	.main .nuestro-equipo .equipo .persona-equipo .texto {
 		width: 100%;
+	}
+
+
+	.carpeta {
+		margin-top: 50px;
+	}
+
+	.carpeta .seccion-archivo {
+		min-width: 100%;	
+	}
+
+	.carpeta .seccion-archivo .archivo {
+		margin-top: 30px;
+		margin-right: 10px;
+		width: 60px;
+	}
+
+	.carpeta .seccion-archivo .archivo a img {
+		width: 50px;
+	}
+
+	.carpeta .seccion-archivo .archivo p {
+		color: #979797;
+		font-size: 10px;
+		text-align: center;
 	}
 
 

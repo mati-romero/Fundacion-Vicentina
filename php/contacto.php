@@ -7,7 +7,9 @@
 	$asunto = $_POST['asunto'];
 	$mensaje = $_POST['mensaje'];
 
-	mail($destino, $asunto, $mensaje);
+	$header = "Este mensaje proviene de la pagina http://www.fundacionvicentina.org.ar/ \n De: " . $nombre . "\n E-mail: " . $email;
+
+	mail($destino, $asunto, $mensaje, $header);
 
 	echo "<script>alert('Su correo a sido enviado con exito');</script>";
 	echo "<script>setTimeout(\"location.href('index.html')\",1000)</script>";

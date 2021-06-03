@@ -12,6 +12,6 @@
 	mail($destino, $asunto, $mensaje, $header);
 
 	echo "<script>alert('Su correo a sido enviado con exito');</script>";
-	echo "<script>setTimeout(\"location.href('index.html')\",1000)</script>";
+	echo "<script>setTimeout(location.href = \"../pag/contacto.html\",1000)</script>";
 
 ?>

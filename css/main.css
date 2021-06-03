@@ -277,6 +277,7 @@ body{
   background: #0089E0;
   color: #fff;
   transition: all .7s ease;
+  border-radius: 10px;
 }
 
 .main .banner-principal .texto-banner a:hover{
@@ -372,7 +373,7 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 50px 0;
 }
 

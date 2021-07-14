@@ -1,0 +1,259 @@
+/*
+
+AZUL color: rgb(24,155,211);
+violeta rgb(186,112,171)
+
+*/
+
+/*General*/
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(24,155,211);
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(68,68,68);
+    font-size: 16px;
+}
+
+.bg-violeta {
+    background: rgb(186,112,171);
+}
+
+.bg-negro {
+    background: rgb(68,68,68);
+}
+
+.bg-azul {
+    background: rgb(24,155,211);
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.btn-azul {
+    background: rgb(24,155,211);
+    color: rgb(255,255,255);
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: all .4s ease;
+}
+
+.btn-azul:hover {
+    color: rgb(24,155,211);
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(24,155,211);
+    background: rgb(255,255,255);
+
+}
+
+.text-negro {
+    color: rgb(68,68,68);
+}
+
+/*Navegador*/
+
+.btn-arriba {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    margin-right: -60px;
+    color: rgb(255,255,255);
+    background: rgb(68,68,68);
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+    z-index: 100;
+    opacity: 0.5;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.navegador a {
+    color: rgb(255,255,255);
+}
+
+.navegador a:hover {
+    color: rgb(24,155,211);
+}
+
+/*Banner*/
+
+.banner {
+    position: relative;
+}
+
+.banner-logo  {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    margin: auto;
+    padding: 5px;
+    background: #FFF;
+    border-radius: 50%;
+}
+
+.banner-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-slider .sliders {
+    width: 600%;
+    display: flex;
+    padding: 0;
+}
+
+.banner-slider .sliders .slide {
+    width: 100%;
+}
+
+.banner-slider .sliders .slide  img {
+    width: 100%;
+}
+
+/*Sobre Nosotros*/
+
+.contador {
+    text-align: center;
+    width: 200px;
+}
+
+.contador .valor {
+    margin-top: 20px;
+    font-size:25px;
+    font-weight:bold;
+    color:  rgb(68,68,68);
+}
+
+.contador i {
+    color: rgb(24,155,211);
+    font-size: 50px;
+}
+
+.contador p {
+    color: #979797;
+}
+
+/*Proyectos*/
+
+.proyectos a {
+    font-size: 50px;
+    color: rgb(68,68,68);
+}
+
+.proyectos a:hover {
+    color: rgb(24,155,211);
+}
+
+/*Donaciones*/
+
+.donaciones .d-box i {
+    font-size: 50px;
+    color: rgb(255,255,255);
+}
+
+.d-box {
+    width: 150px;
+    height: 150px;
+    padding-top: 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.d-box h4{
+    color: rgb(255,255,255);
+}
+
+/*Modal*/
+
+.cbu {
+    margin: auto;
+    margin-top: 80px;
+    width: 100%;
+    border: 3px solid rgb(24,155,211);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.cbu p {
+    color: rgb(24,155,211);
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: left;
+}
+
+/**/
+
+.caja-colaboradores {
+  width: 100%;
+  overflow: hidden;
+}
+
+.caja-colaboradores .colaboradores {
+  width: 400%;
+  display: flex;
+  padding: 0;
+}
+
+.caja-colaboradores .colaboradores .colaborador {
+  width: 200px;
+  margin-right: 30px;
+}
+
+.caja-colaboradores .colaboradores .colaborador img {
+  width: 100%;
+  vertical-align: top;
+}
+
+/* footer */
+
+
+.formulario  textarea {
+    height: 200px;
+}
+
+.formulario form {
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(255,255,255);
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.redes-sociales a {
+    color: rgb(255,255,255);
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.redes-sociales a:hover {
+    color: rgb(24,155,211);
+    text-decoration: none;
+}
+
+.boton {
+    background: rgb(186,112,171);
+    color: rgb(255,255,255);
+    padding: 10px 40px;
+    border: 1px solid rgb(186,112,171);
+}
+
+.boton:hover {
+    background: none;
+    border: 1px solid rgb(186,112,171);
+    color: rgb(186,112,171);
+    cursor: pointer;
+}
